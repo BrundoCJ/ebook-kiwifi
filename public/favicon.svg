@@ -1,0 +1,32 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 4px #00E676) drop-shadow(0 0 8px #00E676); }
+        50% { filter: drop-shadow(0 0 8px #00E676) drop-shadow(0 0 16px #00E676); }
+      }
+      .brain { animation: glow 2s infinite; }
+      .dollar { animation: glow 2s infinite 0.5s; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" fill="#0A0A0A"/>
+  
+  <!-- Brain (Green) -->
+  <g class="brain" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 50 80 Q 50 60 60 50 Q 70 40 80 40 Q 85 40 85 50 Q 85 60 80 70"/>
+    <path d="M 50 100 Q 40 95 35 85 Q 30 75 35 65"/>
+    <path d="M 50 120 Q 40 120 35 130 Q 30 140 40 145"/>
+    <path d="M 80 40 Q 85 35 90 35 Q 100 35 100 50"/>
+    <path d="M 100 50 Q 105 40 115 40 Q 125 40 130 50"/>
+  </g>
+  
+  <!-- Dollar Sign (Blue) -->
+  <g class="dollar" fill="none" stroke="#00B0FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="130" y1="60" x2="150" y2="60"/>
+    <path d="M 140 50 L 140 130"/>
+    <path d="M 130 70 Q 130 80 140 85 Q 150 90 150 100 Q 150 110 140 115 Q 130 120 130 130"/>
+    <line x1="130" y1="130" x2="150" y2="130"/>
+  </g>
+</svg>
