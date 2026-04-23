@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Book3D from "@/components/Book3D"
 
-const KIWIFY_URL = "https://pay.kiwify.com.br/SEU-LINK-AQUI"
+const KIWIFY_URL = "https://pay.kiwify.com.br/6pziddP"
 
 const benefits = [
   { icon: "💡", text: "7 formas reais de ganhar dinheiro com IA" },
